@@ -1,4 +1,4 @@
-# This function input from user and writes Fibonacci series
+# This function takes input from the user and writes Fibonacci series
 def fibon(n):
    print("Here is the fibonacci series from 1 to", n)
    a, b = 0, 1
