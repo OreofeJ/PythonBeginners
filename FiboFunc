@@ -1,0 +1,10 @@
+# This function input from user and writes Fibonacci series
+def fibon(n):
+   print("Here is the fibonacci series from 1 to", n)
+   a, b = 0, 1
+   while a < n:
+       print(a, end=' ')
+       a, b = b, a+b
+n = int(input('Enter fibonacci sefies limit?'))
+# Call function
+fibon(n)
